@@ -1,7 +1,9 @@
 import streamlit as st
 from time import sleep
 from navigation import make_sidebar
+import subprocess
 
+subprocess.run(["pip", "install", "plotly"])
 make_sidebar()
 
 st.title("Welcome to Farmbook")
