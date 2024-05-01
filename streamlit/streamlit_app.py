@@ -5,7 +5,6 @@ from navigation import make_sidebar
 make_sidebar()
 
 st.title("Welcome to Farmbook")
-# st.write("I'm not sure if this is correct")
 
 st.write("Please log in to continue (username `test`, password `test`).")
 
